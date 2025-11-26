@@ -2,7 +2,7 @@ import Image from "next/image";
 import Card from "./spotify/card";
 import { motion } from "framer-motion";
 import Me1 from "@/public/image/me1.jpg";
-import Me2 from "@/public/image/me2.jpg";
+import Me2 from "@/public/image/me2.jpeg";
 import Me3 from "@/public/image/me3.jpg";
 import Hr from "@/components/Hr";
 
@@ -111,7 +111,7 @@ export default function About() {
 						Alvalen Shafelbilyunazra
 					</h2>
 					<p className="text-gray-600 text-justify title text-lg">
-						Hey there, I&rsquo;m Alvalen Shafelbilyunazra, a
+						Hey there, I&rsquo;m Geraldin Andira Cahyarani Putri, a
 						<span className="text-black font-medium">
 							{" "}
 							passionate Web Developer
