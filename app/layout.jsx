@@ -12,7 +12,7 @@ export const metadata = {
     title: "Geraldin | Portofolio",
 
     description:
-		"My name is Geraldin, I'm a meteorologist and hydrogeologist from Bandung Institut of Technology. I'm passionate about data analyst, data science, and also eager to learn anything new.",
+		"My name is Geraldin, I'&rsquo;m a meteorologist and hydrogeologist from Bandung Institut of Technology. I'm passionate about data analyst, data science, and also eager to learn anything new.",
 
     author: "Geraldin Andira Cahyarani Putri",
     applicationName: "Geraldin",

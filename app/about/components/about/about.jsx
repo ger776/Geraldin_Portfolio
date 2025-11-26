@@ -111,34 +111,38 @@ export default function About() {
 						Geraldin Andira Cahyarani Putri
 					</h2>
 					<p className="text-gray-600 text-justify title text-lg">
-						Hey there, I&rsquo;m Geraldin Andira Cahyarani Putri, a
-						<span className="text-black font-medium">
-							{" "}
-							passionate Hydrogeologist
-						</span>{" "}
-						with a growing expertise in
-						<span className="text-black font-medium">
-							{" "}
-							Data Analyst and Data Science.
-						</span>{" "}
-						Hailing from Yogyakarta, Indonesia, I took bachelor's degree in
+					Hey there, I&apos;m Geraldin Andira Cahyarani Putri, a
+					<span className="text-black font-medium">
 						{" "}
-						<span className="text-black font-medium">
-							Meteorology 
-						</span>{" "}
-						and master's degree
+						passionate Hydrogeologist{" "}
+					</span>
+					with a growing expertise in
+					<span className="text-black font-medium">
 						{" "}
-						<span className="text-black font-medium">
-							in Groundwater Engineering
-						</span>{" "}
-						at{" "}
-						<span className="text-black font-medium">
-							Bandung Institut of Techology.
-						</span>{" "}
-						Trained in meteorology and hydrology, I developed strong experience in field data collection, Python-based analysis, and data science workflows. I enjoy working with data to uncover patterns, solve complex problems, and support decision-making across scientific and technical projects.
-						I believe that being a
-						<span className="text-black font-medium"> lifelong learner</span> is essential in today&rsquo;s dynamic professional landscape. I&rsquo;m always eager to explore opportunities that bridge science, data, and technology.
+						Data Analyst and Data Science.
+					</span>{" "}
+					Hailing from Yogyakarta, Indonesia, I took bachelor&apos;s degree in{" "}
+					<span className="text-black font-medium">Meteorology</span> and master&apos;s
+					degree in{" "}
+					<span className="text-black font-medium">
+						Groundwater Engineering
+					</span>{" "}
+					at{" "}
+					<span className="text-black font-medium">
+						Bandung Institute of Technology
+					</span>
+					. Trained in meteorology and hydrology, I developed strong experience in
+					field data collection, Python-based analysis, and data science workflows.
+					I enjoy working with data to uncover patterns, solve complex problems, and
+					support decision-making across scientific and technical projects.
+					<br />
+					<br />
+					I believe that being a{" "}
+					<span className="text-black font-medium">lifelong learner</span> is essential
+					in today&apos;s dynamic professional landscape. I&apos;m always eager to explore
+					opportunities that bridge science, data, and technology.
 					</p>
+
 					<Card />
 				</motion.div>
 			</div>
