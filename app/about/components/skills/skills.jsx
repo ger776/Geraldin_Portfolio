@@ -14,11 +14,10 @@ const skillCategories = {
 						
 			"Python",
 			"React",
-			"NextJS",
-			
+						
 			"NodeJS",
 			],
-		tools: ["Visual Studio Code", "Git", "Github", "Figma", "Canva", "Capcut", "Microsoft", "iBisPaint", "Procreate"],
+		tools: ["Visual Studio Code", "Github", "QGis", "WMS","Poligon Thiessen","Canva", "Capcut", "Microsoft", "iBisPaint", "Procreate"],
 		bahasa: ["English", "Dutch", "Indonesia", "Mandarin"],
 		},
 	api: {
@@ -26,20 +25,15 @@ const skillCategories = {
 		icon: WebhookIcon,
 		description: "Creating robust and scalable backend services",
 		languages: [
-			"NodeJS",
-			"ExpressJS",
-			"PHP",
-			"Laravel",
+			"JavaScript",
+						
 			"Python",
-			"FastAPI",
-			"Flask",
-			"Django",
-			"MySQL",
-			"PostgreSQL",
-			"MongoDB",
-			"Firebase",
+			"React",
+						
+			"NodeJS",
+			
 		],
-		tools: ["Postman", "Docker", "Kubernetes", "Swagger", "Git", "Github", "Google Cloud", "IBM Cloud"],
+		tools: ["Visual Studio Code", "Github", "QGis", "WMS","Poligon Thiessen","Canva", "Capcut", "Microsoft", "iBisPaint", "Procreate"],
 	},
 	ai: {
 		title: "AI & Machine Learning",
