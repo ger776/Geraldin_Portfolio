@@ -19,8 +19,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 
 const category = {
-	1: "Web Development",
-	2: "AI & Machine Learning",
+	1: "Data Analyst",
+	2: "",
 	9: "Other",
 };
 

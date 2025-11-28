@@ -5,9 +5,9 @@ import { CodepenIcon, WebhookIcon, ActivityIcon, MobileIcon } from "./icons"
 
 const skillCategories = {
 	web: {
-		title: "Web Development",
+		title: "Data Analyst",
 		icon: CodepenIcon,
-		description: "Building modern, responsive web applications",
+		description: "collecting, cleaning, analyzing, and interpreting data to support business and technical decision-making",
 		languages: [
 
 			"JavaScript",
@@ -21,9 +21,9 @@ const skillCategories = {
 		bahasa: ["English", "Dutch", "Indonesia", "Mandarin"],
 		},
 	api: {
-		title: "REST API",
+		title: "Data Science",
 		icon: WebhookIcon,
-		description: "Creating robust and scalable backend services",
+		description: "collecting, cleaning, analyzing, and interpreting data to support business and technical decision-making",
 		languages: [
 			"JavaScript",
 						
