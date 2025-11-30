@@ -18,8 +18,7 @@ const skillCategories = {
 			"NodeJS",
 			],
 		tools: ["Visual Studio Code", "Github", "QGis", "WMS","Poligon Thiessen","Canva", "Capcut", "Microsoft", "iBisPaint", "Procreate"],
-		bahasa: ["English", "Dutch", "Indonesia", "Mandarin"],
-		},
+			},
 	api: {
 		title: "Data Science",
 		icon: WebhookIcon,
@@ -28,51 +27,37 @@ const skillCategories = {
 			"JavaScript",
 						
 			"Python",
-			"React",
-						
+												
 			"NodeJS",
 			
 		],
-		tools: ["Visual Studio Code", "Github", "QGis", "WMS","Poligon Thiessen","Canva", "Capcut", "Microsoft", "iBisPaint", "Procreate"],
+		tools: ["Visual Studio Code", "Github", "Google Colab"],
 	},
 	ai: {
-		title: "AI & Machine Learning",
+		title: "Research & Writing",
 		icon: ActivityIcon,
-		description: "Developing intelligent solutions with ML/AI",
+		description: "Skilled in research, data interpretation, and academic writing, including literature review, documentation, and preparing research reports or papers",
 		languages: [
-			"Python",
-			"TensorFlow",
-			"PyTorch",
-			"Scikit-learn",
-			"Pandas",
-			"NumPy",
-			"Jupyter",
+			
 			"OpenAI API",
 			"Gemini API",
-			"LangChain",
+			
 		],
 		tools: [
-			"Jupyter Notebook",
+			
 			"Google Colab",
-			"Google Cloud AI",
-			"AWS SageMaker",
-			"IBM Watson",
+			
 		],
 	},
 	mobile: {
-		title: "Mobile Development",
+		title: "Creative (Design & Editing)",
 		icon: MobileIcon,
-		description: "Cross-platform mobile app development",
-		languages: [
-			"React Native",
-			"JavaScript",
-			"TypeScript",
-			"Dart",
-			"Flutter",
-		],
-		tools: [
-			"Android Studio",
-			"React Native CLI",
+		description: "Experienced in creative design and editing, including visual layout creation, content refinement, and enhancing digital materials to ensure clarity and impact. Able to transform concepts into clean, engaging designs",
+				tools: [
+			"Canva",
+			"Capcut",
+			"Procreate",
+			"Figma"
 		],
 	},
 };
@@ -186,33 +171,7 @@ function SkillDetails({ selectedSkill }) {
 					))}
 				</div>
 			</motion.div>
-			{/* Bahasa / Languages */}
-{selectedSkill.bahasa && (
-	<motion.div
-		className="backdrop-blur-lg bg-white/20 border border-gray-300/30 rounded-2xl p-8"
-		initial={{ opacity: 0, y: 50 }}
-		animate={{ opacity: 1, y: 0 }}
-		transition={{ delay: 0.6 }}>
-		<h3 className="text-2xl font-semibold text-black mb-6 text-center">
-			Languages Spoken
-		</h3>
-
-		<div className="flex flex-wrap justify-center gap-3">
-			{selectedSkill.bahasa.map((lang, index) => (
-				<motion.span
-					key={lang}
-					initial={{ opacity: 0, scale: 0.8 }}
-					animate={{ opacity: 1, scale: 1 }}
-					transition={{ delay: 0.7 + index * 0.1 }}
-					className="px-4 py-2 bg-gradient-to-r from-gray-200/60 to-white/40 
-					border border-gray-400/40 rounded-full text-black font-medium
-					backdrop-blur-sm hover:scale-105 transition-transform cursor-default">
-					{lang}
-				</motion.span>
-			))}
-		</div>
-	</motion.div>
-			)}
+		
 		</motion.div>
 	);
 }
