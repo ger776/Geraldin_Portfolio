@@ -77,7 +77,7 @@ const MyPage = () => {
 											delay: 0.3,
 											type: "spring",
 										}}>
-										Meteorologist and Hydrologist
+										Meteorologist and Hydrogeologist
 									</motion.h1>
 									<motion.p
 										className="title text-md  2xl:text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem]"
@@ -88,7 +88,7 @@ const MyPage = () => {
 											type: "spring",
 										}}>
 										Hi! I&rsquo;am Geraldin, a graduate of Institut Teknologi Bandung (ITB) from Indonesia, where I completed both my bachelor’s and master’s degrees in just five years.
-										With a background in meteorology and hydrology, I have strong experience in data analysis, problem-solving, and system-based thinking, which allows me to contribute across various fields, from environmental sciences to technology and research-driven industries.
+										With a background in meteorology and groundwater engineering, I have strong experience in data analysis, problem-solving, and system-based thinking, which allows me to contribute across various fields, from environmental sciences to technology and research-driven industries.
 									</motion.p>
 									<motion.div
 										className="buttons flex flex-row justify-center items-center space-x-4 mt-10"
@@ -301,7 +301,7 @@ const MyPage = () => {
 								</div>
 								<div className="z-10 w-full absolute md:w-auto  md:left-[10%] top-[60%] md:top-1/3 col-span-2 flex flex-col justify-center items-start md:items-start text-start px-10 overflow-hidden">
 									<motion.h1
-										className="bg-white lg:bg-transparent bg-opacity-50 px-3 md-px-0 text-black text-5xl md:text-8xl font-bold mb-3"
+										className="bg-white lg:bg-transparent bg-opacity-50 px-3 md-px-0 text-black text-xl md:text-5xl font-bold mb-3"
 										initial={{ x: -100, opacity: 0 }}
 										whileInView={{ x: 0, opacity: 1 }}
 										transition={{
