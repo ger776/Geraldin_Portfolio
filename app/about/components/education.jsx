@@ -65,7 +65,7 @@ export default function Education() {
 			{
 				icon: faAward,
 				title: "President",
-				subtitle: "October's Graduation Event 2023 Bandung Institut of Bandung",
+				subtitle: "October&apos;s Graduation Event 2023 Bandung Institut of Bandung",
 				date: "Oct 2023",
 				color: "from-blue-500 to-purple-600",
 			}
@@ -173,11 +173,11 @@ export default function Education() {
 							</div>
 							<div className="flex flex-wrap gap-2 mt-4 text-sm">
 								<div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
-									GPA: 3.18 out of 4 (Bachelor's GPA)
+									GPA: 3.18 out of 4 (Bachelor&apos;s GPA)
 									</div>
 									<div className="flex flex-wrap gap-2 mt-4 text-sm">
 								<div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
-									GPA: 3.85 out of 4 (Master's GPA)
+									GPA: 3.85 out of 4 (Master&apos;s GPA)
 								</div>
 							</div>
 						</div>
