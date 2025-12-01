@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import FixedButon from "@/components/FixedButton";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
@@ -96,7 +96,7 @@ export default function Page() {
 												{project.code && (
 													<a href={project.code} title="Link to GitHub">
 														<FontAwesomeIcon
-															icon={faGithub}
+															
 															className="text-xl mr-2"
 														/>
 													</a>
