@@ -177,7 +177,7 @@ export default function Page() {
 							Data Processing and Data Analyst
 						</h2>
 						<p className="text-gray-600 text-justify title text-lg">
-							I used cross-plots, WMS, and GrADS to process and analyze meteorological datasets, including synoptic observations, reanalysis products, and satellite-derived parameters. Through these tools, I conducted pattern recognition, temporal–spatial visualization, and variable correlation analysis to better understand atmospheric processes and hydro-meteorological behavior. 
+							I used cross-plots, WMS, Python, and GrADS to process and analyze meteorological datasets, including synoptic observations, reanalysis products, and satellite-derived parameters. Through these tools, I conducted pattern recognition, temporal–spatial visualization, and variable correlation analysis to better understand atmospheric processes and hydro-meteorological behavior. 
 						</p>{" "}
 						</motion.div>
 				</div>

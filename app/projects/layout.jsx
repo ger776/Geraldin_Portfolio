@@ -9,3 +9,7 @@ export const metadata = {
     siteName: "Portfolio",
   },
 };
+
+export default function Layout({ children }) {
+  return <>{children}</>;
+}

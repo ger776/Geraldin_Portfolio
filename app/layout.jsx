@@ -39,7 +39,7 @@ export const metadata = {
 		height: 630,
 		images: [
 			{
-				url: "/og-image-rev.png",
+				
 				alt: "Geraldin Portofolio",
 			},
 		],
