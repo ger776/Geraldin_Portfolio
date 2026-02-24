@@ -250,7 +250,7 @@ const MyPage = () => {
 											type: "spring",
 										}}>
 										This is some of my experience & achievements that I have done{" "}
-										<span className="bg-transparent md:bg-gray-100 bg-opacity-50 xl:bg-transparent">
+										<span className="bg-transparent md:bg-gray-100 bg-opacity-30 xl:bg-transparent">
 											{" "}
 											and currently working on.
 										</span>
